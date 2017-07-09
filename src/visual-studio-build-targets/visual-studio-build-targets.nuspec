@@ -35,9 +35,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>visual-studio-build-targets (Install)</title>
-    <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
+    <authors>Lee-Roy Ashworth</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
+    <projectUrl>https://github.com/dockerdurban/visual-studio-build-targets/issues/1</projectUrl>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/visual-studio-build-targets.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
@@ -47,14 +47,11 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>visual-studio-build-targets admin SPACE_SEPARATED</tags>
-    <summary>__REPLACE__</summary>
+    <tags>Docker Build Visual Studio 2017</tags>
+    <summary>Visual Studio 2017 build binaries.</summary>
     <description>__REPLACE__MarkDown_Okay 
-
-
-**Please Note**: This is an automatically updated package. If you find it is 
-out of date by more than a day or two, please contact the maintainer(s) and
-let them know the package is no longer updating correctly.
+    This is a package that can be used to install Visual Studio 2017 binaries
+    into a build server or Docker image.
 </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      
@@ -81,6 +78,7 @@ let them know the package is no longer updating correctly.
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="tools\**" target="tools" />
+    <file src="tools\**" target="build"/>
     <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
   </files>
 </package>
