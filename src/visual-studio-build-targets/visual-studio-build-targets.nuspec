@@ -8,11 +8,10 @@
     <projectUrl>https://github.com/dockerdurban/visual-studio-build-targets</projectUrl>
     <projectSourceUrl>https://github.com/dockerdurban/visual-studio-build-targets</projectSourceUrl>
     <docsUrl>https://github.com/dockerdurban/visual-studio-build-targets/wiki</docsUrl>
-    <mailingListUrl>info@docker.durban</mailingListUrl>
     <bugTrackerUrl>https://github.com/dockerdurban/visual-studio-build-targets/issues</bugTrackerUrl>
     <tags>Docker Build Visual Studio 2017</tags>
     <summary>Visual Studio 2017 build binaries.</summary>
-    <description>__REPLACE__MarkDown_Okay 
+    <description>
     This is a package that can be used to install Visual Studio 2017 binaries
     into a build server or Docker image.
 </description>
